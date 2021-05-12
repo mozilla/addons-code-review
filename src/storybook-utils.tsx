@@ -4,8 +4,8 @@ import { Provider } from 'react-redux';
 import { MemoryRouter } from 'react-router-dom';
 import { Store } from 'redux';
 
-import configureStore from '../src/configureStore';
-import { nextUniqueId } from '../src/test-helpers';
+import configureStore from './configureStore';
+import { nextUniqueId } from './test-helpers';
 
 export const renderWithStoreAndRouter = (
   element: JSX.Element,
